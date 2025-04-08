@@ -3,7 +3,7 @@ name: CI/CD for HTML Page
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   # Build Job
