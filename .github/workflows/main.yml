@@ -38,5 +38,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.KEY }}  # Use the default GitHub token for authentication
+          github_token: ${{ secrets.KEYY }}  # Use the default GitHub token for authentication
           publish_dir: ./html
